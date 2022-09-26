@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <title>Сайт Тарнавской О.А.</title>
+    </head>
+    <body background="img/body_background.png" text="white">
+        <table
+            border="1"
+            align="center"
+            class="mainTable"
+            rules="rows"
+            style="width:60%;">
+            <!--Создаём строку-->
+            <tr>
+                <!--Создаём ячейку строки-->
+                <td>
+                    <!--ШАПКА САЙТА-->
+                    <header>
+                    <table 
+                        border="1"
+                        
+                        cellpadding="10"
+                        style="width:100%; border-radius:5px;">
+                        <!--Создаём строку таблицы-->
+                        <tr>
+                            <!--Создаём столбец таблицы-->
+                            <th>
+                                <!--Содержание ячейки столбца-->
+                                <h1>Тарнавская Ольга Александровна</h1>
+                                <h3>Домашняя страница</h3>
+                                <!--Закрываем таблицу-->
+                            </th>
+                        </tr>
+                    </table>
+                </header>
+                    <!--ОСНОВНОЙ КОНТЕНТ-->
+                <main>
+                    <table
+                        border="1"
+                        cellpadding="10"
+                        style="width:100%; border-radius:5px;">
+                        <!--Создаём строку-->
+                        <tr>
+                            <!--Создаём ячейку -->
+                            <td
+                                rowspan="2"
+                                style="width:80%">
+                                <h2>Обо мне</h2>
+                                <!--Начинаем абзац с красной строки-->
+                                <div class="about-me">
+                                    <img src="img/selfie.jpg" alt="фото" width="250" height="350">
+                                    <div>
+                                        <p style="text-indent:15px; margin-left: 20px;">
+                                            Привет! Меня зовут Оля. Мне 22 года и я рада приветствовать вас на своём сайте. 
+                                            Я студентка 3-го курса БУ "НВГУ" группы 3002, обучаюсь на специальности 
+                                            "Информатика и вычислительная техника"</p>
+                                        <p style="text-indent:15px; margin-left: 20px;">
+                                            Я увлекаюсь фотографиями и иногда играю в компьютерные игры при этом всегда слушаю музыку разных жанров.
+                                            Также я пишу статьи для научных конкурсов, мне это нравится и все мои статьи занимают призовые места</p>
+                                        <p style="text-indent:15px; margin-left: 20px;">
+                                           Мне нравятся веб-разработки, потому что это направление в IT, в котором можно в полном объёме проявлять свою креативность и фантазию</p>
+                                    </div>
+                                </div>
+                                <!--Закрываем ячейку-->
+                            </td>
+
+                            <!--САЙДБАР-->
+
+                            <!--Создаём ячейку сайдбара-->
+                            <td>
+                                <h3>Меню</h3>
+                                <!--Абзац для ссылки на страницу сайта-->
+                                <p>
+                                    <!--Ссылка на страницу сайта-->
+                                    <a href="myuniversitet.html" class="menuItem">
+                                        <span style="margin-left:5px;">Мой ВУЗ</span></a>
+                                    <!--Закрываем абзац-->
+                                </p>
+                                <p>
+                                    <a href="mygroup.html" class="menuItem">
+                                        <span style="margin-left:5px;">Моя группа</span;></a>
+                                </p>
+                                <p>
+                                    <a href="myjob.html" class="menuItem">
+                                        <span style="margin-left:5px;">Моя будущая профессия</span></a>
+                                </p>
+                                <!--Закрываем строку Меню-->
+                            </td>
+                        </tr>
+                        <!--Создаём строку с дополнительной информацией-->
+                    </table>
+                </main>
+                    <!--ПОДВАЛ-->
+                <footer>
+                    <!--Создаём таблицу подвала-->
+                    <table
+                        border="1"
+                        height="100"
+                        cellpadding="10"
+                        style="width:100%; border-radius:5px;">
+                        <!--Создаём строку.-->
+                        <tr>
+                            <!--Создаём столбец-->
+                            <th>
+                                <h3>Контакты</h3>
+                                <p>Почта: tarnaola00@mail.ru</p>
+                                <p>Сайт вуза: <a href="http://nvsu.ru" style="color: white;">nvsu.ru</a> </p>
+                            </th>
+                        </tr>
+                    </table>
+                </footer>
+                    <!--Закрываем таблицу контейнера-->
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

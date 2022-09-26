@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <title>Мой вуз</title>
+    </head>
+    <body background="img/body_background.png" text="white">
+        <table
+            border="1"
+            align="center"
+            class="mainTable"
+            rules="rows"
+            style="width:60%;">
+            <!--Создаём строку-->
+            <tr>
+                <!--Создаём ячейку строки-->
+                <td>
+                    <!--ШАПКА САЙТА-->
+                    <header>
+                    <table 
+                        border="1"
+                        
+                        cellpadding="10"
+                        style="width:100%; border-radius:5px;">
+                        <!--Создаём строку таблицы-->
+                        <tr>
+                            <!--Создаём столбец таблицы-->
+                            <th>
+                                <!--Содержание ячейки столбца-->
+                                <h1>Тарнавская Ольга Александровна</h1>
+                                <h3>Мой вуз</h3>
+                                <!--Закрываем таблицу-->
+                            </th>
+                        </tr>
+                    </table>
+                </header>
+                    <!--ОСНОВНОЙ КОНТЕНТ-->
+                <main>
+                    <table
+                        border="1"
+                        cellpadding="10"
+                        style="width:100%; border-radius:5px;">
+                        <!--Создаём строку-->
+                        <tr>
+                            <!--Создаём ячейку -->
+                            <td
+                                rowspan="2"
+                                style="width:80%">
+                                <h2>Нижневартовский государственный университет</h2>
+                                <!--Начинаем абзац с красной строки-->
+                                <div class="about-vuz">
+                                    <img src="img/nvsu.jpg" alt="фото" width="370" height="270" style="display: block; margin: auto">
+                                    <p style="text-indent:15px; margin-left: 20px;">В университете реализуется более 100 образовательных программ. В структуру университета входят
+                                        6 факультетов – гуманитарный, педагогики и психологии, информационных технологий и математики,
+                                        экологии и инжиниринга, искусств и дизайна, физической культуры и спорта; 17 кафедр, 
+                                        8 научно-исследовательских лабораторий. В настоящее время в университете обучается 3964 студента, 
+                                        в том числе аспирантов и соискателей. Учебный процесс и научную работу обеспечивают 
+                                        165 научно-педагогических работников, в том числе 14 докторов наук, профессоров и 106 
+                                        кандидатов наук, доцентов.</p>
+                                </div>
+                                <!--Закрываем ячейку-->
+                            </td>
+
+                            <!--САЙДБАР-->
+
+                            <!--Создаём ячейку сайдбара-->
+                            <td>
+                                <h3>Меню</h3>
+                                <!--Абзац для ссылки на страницу сайта-->
+                                <p>
+                                    <!--Ссылка на страницу сайта-->
+                                    <a href="myuniversitet.html" class="menuItem">
+                                        <span style="margin-left:5px;">Мой ВУЗ</span></a>
+                                    <!--Закрываем абзац-->
+                                </p>
+                                <p>
+                                    <a href="mygroup.html" class="menuItem">
+                                        <span style="margin-left:5px;">Моя группа</span;></a>
+                                </p>
+                                <p>
+                                    <a href="myjob.html" class="menuItem">
+                                        <span style="margin-left:5px;">Моя будущая профессия</span></a>
+                                </p>
+                                <p>
+                                    <a href="index.html" class="menuItem">
+                                        <span style="margin-left:5px;">На главную</span></a>
+                                </p>
+                                <!--Закрываем строку Меню-->
+                            </td>
+                        </tr>
+                        <!--Создаём строку с дополнительной информацией-->
+                    </table>
+                </main>
+                    <!--ПОДВАЛ-->
+                <footer>
+                    <!--Создаём таблицу подвала-->
+                    <table
+                        border="1"
+                        height="100"
+                        cellpadding="10"
+                        style="width:100%; border-radius:5px;">
+                        <!--Создаём строку.-->
+                        <tr>
+                            <!--Создаём столбец-->
+                            <th>
+                                <h3>Контакты</h3>
+                                <p>Почта: tarnaola00@mail.ru</p>
+                                <p>Сайт вуза: <a href="http://nvsu.ru" style="color: white;">nvsu.ru</a> </p>
+                            </th>
+                        </tr>
+                    </table>
+                </footer>
+                    <!--Закрываем таблицу контейнера-->
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
